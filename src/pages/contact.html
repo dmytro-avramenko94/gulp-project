@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Шлях до css це відносний шлях не залежить ввід папки-->
+    <link rel="stylesheet" href="@@webRoot/bundle.min.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="container header__container">
+                <a href="@@webRoot/index.html" class="header__logo-link-home-page">
+                    <img class="header__logo" src="@@webRoot/img/header/manifest-logo.svg" alt="Manifest logo">
+                </a>
+                <nav class="header__nav">
+                    <a href="@@webRoot/index.html" class="header__nav-link heading-h8">Home</a>
+                    <a href="@@webRoot/pages/about.html" class="header__nav-link heading-h8">About</a>
+                    <a href="@@webRoot/pages/works.html" class="header__nav-link heading-h8">Works</a>
+                    <a href="@@webRoot/pages/blog.html" class="header__nav-link heading-h8">Blog</a>
+                    <a href="@@webRoot/pages/contact.html"
+                        class="header__nav-link header__nav-link--active heading-h8">Contact</a>
+                    <img src="@@webRoot/img/header/search-icon.svg" alt="" class="header__search-icon">
+                </nav>
+            </div>
+        </header>
+
+        <main class="contact">
+            <div class="container contact__container">
+                <section class="hero">
+                    <div class="hero__container">
+                        <h1 class="hero__contact-title heading-h1">Contact Us</h1>
+                        <div class="hero__contact-information">
+                            <h3 class="hero__contact-information-title heading-h3">Contact information</h3>
+                            <h6 class="hero__contact-information-address heading-h6">486 Rahi street, Berlin .98
+                                Germany</h6>
+                            <div class="hero__contact-information-phone-container">
+                                <img src="@@webRoot/img/contact/tel-icon.svg" alt=""
+                                    class="hero__contact-information-phone-icon">
+                                <h6 class="hero__contact-information-phone heading-h6">+48 601 366 816</h6>
+                            </div>
+                            <div class="hero__contact-information-email-container">
+                                <img src="@@webRoot/img/contact/email-icon.svg" alt=""
+                                    class="hero__contact-information-email-icon">
+                                <h6 class="hero__contact-information-email heading-h6">company@support.com</h6>
+                            </div>
+                        </div>
+                        <div class="hero__social">
+                            <h3 class="hero__social-title heading-h3">Follow Us</h3>
+                            <div class="hero__social-links-container">
+                                <a href="https://www.facebook.com/" class="hero__social-link">
+                                    <img src="@@webRoot/img/contact/facebook-icon.svg" alt="" class="hero__social-icon">
+                                </a>
+                                <a href="" class="hero__social-link">
+                                    <img src="@@webRoot/img/contact/twitter-icon.svg" alt="" class="hero__social-icon">
+                                </a>
+                                <a href="https://www.linkedin.com/" class="hero__social-link">
+                                    <img src="@@webRoot/img/contact/linkedin-icon.svg" alt="" class="hero__social-icon">
+                                </a>
+                                <a href="https://dribbble.com/" class="hero__social-link">
+                                    <img src="@@webRoot/img/contact/dribbble-icon.svg" alt="" class="hero__social-icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="help">
+                    <div class="help__container">
+                        <h4 class="help__description heading-h4">If you need our help with your user account, have
+                            questions
+                            about how to use the platform or are experiencing technical difficulties, please do not
+                            hesitate
+                            to contact us.</h4>
+                        <form action="" class="help__form">
+                            <div class="help__user-data">
+                                <h5 class="help__user-data-title heading-h5">Name*</h5>
+                                <input class="help__user-data-input" type="text" placeholder="Walter Moss">
+                            </div>
+                            <div class="help__user-data">
+                                <h5 class="help__user-data-title heading-h5">Email*</h5>
+                                <input class="help__user-data-input" type="email" placeholder="Info@manifest.com">
+                            </div>
+                            <select class="help__user-data-input heading-h5" name="" id="reason">
+                                <option value="reason">Reason for contact</option>
+                                <option value="reason">I need a project</option>
+                                <option value="reason">I need consultation</option>
+                                <option value="reason">I have problems with the project</option>
+                            </select>
+                            <div class="help__user-data">
+                                <h5 class="help__user-data-title heading-h5">Message*</h5>
+                                <input class="help__user-data-input" type="text" placeholder="Hi there ...">
+                            </div>
+                        </form>
+                        <button class="button-send">
+                            <p class="button-send__text heading-h7">Send</p>
+                            <img src="@@webRoot/img/contact/arrow-r.svg" alt="" class="button-send__arrow-r">
+                        </button>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="container footer__container">
+                <div class="footer_sub-container">
+                    <h1 class="footer__title heading-h1">Need a project?</h1>
+                    <p class="footer__phone heading-h6">(239) 555-0108</p>
+                    <p class="footer__email heading-h6">tanya.hill@example.com</p>
+                </div>
+                <div class="footer__social">
+                    <a href="https://www.facebook.com/" class="footer__link heading-h6">Facebook</a>
+                    <a href="https://www.instagram.com/" class="footer__link heading-h6">Instagram</a>
+                    <a href="https://dribbble.com/" class="footer__link heading-h6">Dribbble</a>
+                    <a href="https://www.linkedin.com/" class="footer__link heading-h6">Linkedin</a>
+                </div>
+                <p class="footer__copyright heading-h9">© Copyright Manifest Theme. Allrights reserved</p>
+            </div>
+        </footer>
+    </div>
+
+
+    <!--Обовязково додавати потрібно для JS -->
+    <script> var exports = {}; </script>
+    <script src="@@webRoot/js/index.js"></script>
+</body>
+
+</html>

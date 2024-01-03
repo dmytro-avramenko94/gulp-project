@@ -1,0 +1,39 @@
+.about {
+    &__container {
+        // max-width: toRem(1119px);
+        display: flex;
+        gap: toRem(148px);
+        margin-bottom: toRem(128px);
+    }
+
+    &__left-side {
+        max-width: toRem(432px);
+    }
+
+    &__right-side {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: toRem(540px);
+    }
+
+    &__title {
+        margin-bottom: toRem(39px);
+        color: inherit;
+    }
+
+    &__head-of-design-job-title {
+        margin-bottom: toRem(19px);
+        color: var(--grey-700);
+    }
+
+    &__head-of-design-photo {
+        max-width: toRem(225px);
+        max-height: toRem(235px);
+    }
+
+    &__head-of-design-description {
+        color: var(--grey-700);
+        margin-bottom: toRem(67px);
+    }
+}

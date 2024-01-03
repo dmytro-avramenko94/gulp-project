@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Red+Hat+Display:wght@400;500&display=swap');
+
+// font-family: 'Lato', sans-serif; 400 / 700
+// font-family: 'Red Hat Display', sans-serif; 400 / 500
+
+:root {
+
+    // Font family
+    --main-title-font: 'Red Hat Display', sans-serif;
+    --main-text-font: 'Lato', sans-serif;
+
+
+    // Text fonts
+    --heading-h1: 400 3rem/4rem var(--main-title-font);
+    --heading-h3: 400 1.4375rem/2.38625rem var(--main-title-font);
+    --heading-h4: 400 1.1875rem/2rem var(--main-text-font);
+    --heading-h5: 400 1rem/1.66rem var(--main-text-font);
+    --heading-h6: 400 1rem/1.66rem var(--main-text-font);
+    --heading-h7: 700 1rem/1.66rem var(--main-text-font);
+    --heading-h8: 400 0.8125rem/normal var(--main-text-font);
+    --heading-h9: 400 0.75rem/1.245rem var(--main-text-font);
+}
+
+// Title
+
+.heading-h1 {
+    font: var(--heading-h1);
+    letter-spacing: 0.15rem;
+}
+
+.heading-h3 {
+    font: var(--heading-h3);
+    letter-spacing: 0.14375rem;
+}
+
+.heading-h4 {
+    font: var(--heading-h4);
+    letter-spacing: 0.059375rem;
+}
+
+.heading-h5 {
+    font: var(--heading-h5);
+    letter-spacing: 0.05rem;
+}
+
+.heading-h6 {
+    font: var(--heading-h6);
+    letter-spacing: 0.1rem;
+}
+
+.heading-h7 {
+    font: var(--heading-h7);
+    letter-spacing: 0.1rem;
+}
+
+.heading-h8 {
+    font: var(--heading-h8);
+    letter-spacing: 0.24375rem;
+    text-transform: uppercase;
+}
+
+.heading-h9 {
+    font: var(--heading-h9);
+    letter-spacing: 0.075rem;
+}

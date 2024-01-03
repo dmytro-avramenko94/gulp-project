@@ -1,0 +1,103 @@
+.contact {
+    &__container {
+        display: flex;
+        gap: toRem(287px);
+        margin-bottom: toRem(128px);
+    }
+}
+
+.hero {
+    &__container {
+        max-width: toRem(288px);
+    }
+
+    &__contact-title {
+        color: inherit;
+        margin-bottom: toRem(192px);
+    }
+
+    &__contact-information {
+        display: flex;
+        flex-direction: column;
+        gap: toRem(24px);
+        margin-bottom: toRem(70px);
+
+        &-address {
+            max-width: toRem(226px);
+            color: var(--grey-700);
+        }
+
+        &-phone-container,
+        &-email-container {
+            display: flex;
+            align-items: center;
+            gap: toRem(9px);
+            color: var(--grey-700);
+        }
+
+        &-phone-icon {
+            max-width: toRem(20px);
+            max-height: toRem(20px);
+        }
+
+        &-email-icon {
+            max-width: toRem(20px);
+            max-height: toRem(16px);
+        }
+    }
+
+    &__social {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: toRem(23.73px);
+
+        &-links-container {
+            display: flex;
+            gap: toRem(24px);
+        }
+
+        &-link {
+            text-decoration: none;
+        }
+    }
+}
+
+.help {
+    &__container {
+        max-width: toRem(543px);
+    }
+
+    &__description {
+        color: var(--grey-700);
+        margin-bottom: toRem(128px);
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        gap: toRem(48px);
+        margin-bottom: toRem(64px);
+    }
+
+    &__user-data {
+        display: flex;
+        flex-direction: column;
+        gap: toRem(16px);
+
+        &-title {
+            color: inherit;
+        }
+
+        &-input {
+            max-width: toRem(541px);
+            border: none;
+            padding-bottom: toRem(9px);
+            border-bottom: toRem(1px) solid var(--base-black);
+        }
+    }
+}
+
+#reason {
+    color: var(--grey-700);
+}

@@ -1,0 +1,30 @@
+// Function px to rem
+@function toRem($size) {
+    @return calc($size / 16px) * 1rem
+}
+
+;
+
+// Variables
+@import './variable/color.scss';
+@import './variable/fonts.scss';
+
+// Global
+@import './global/reset.scss';
+@import './global/global.scss';
+
+// Common
+@import './common/buttons.scss';
+@import './common/form.scss';
+@import './common/header.scss';
+@import './common/footer.scss';
+
+
+// Pages
+@import './pages/home.scss';
+@import './pages/contact.scss';
+@import './pages/about.scss';
+@import './pages/blog.scss';
+@import './pages/blog-post.scss';
+@import './pages/works.scss';
+@import './pages/works-post.scss';

@@ -1,0 +1,56 @@
+.header {
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 6rem;
+        margin-bottom: 7.5rem;
+    }
+
+    &__logo {
+        max-width: 8.4375rem;
+        max-height: 0.75rem;
+    }
+
+    &__nav {
+        display: flex;
+        align-items: center;
+        gap: 3.3125rem;
+    }
+
+    &__nav-link {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: var(--base-black);
+
+        &::after {
+            content: "";
+            display: block;
+            height: 0.0625rem;
+            width: 0;
+            background-color: transparent;
+            margin: 0 auto;
+            transition: all 0.5s;
+        }
+
+        &:hover {
+            &::after {
+                content: "";
+                display: block;
+                height: 0.0625rem;
+                width: 70%;
+                background-color: var(--base-black);
+                margin: 0 auto;
+            }
+        }
+    }
+
+    &__nav-link--active {
+        &::after {
+            width: 70%;
+            background-color: var(--base-black);
+        }
+    }
+
+
+}

@@ -1,0 +1,94 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    gap: toRem(128px);
+    margin-bottom: toRem(128px);
+}
+
+.hero {
+    &__home-title {
+        max-width: toRem(709px);
+    }
+}
+
+.slide {
+    display: flex;
+    gap: toRem(32px);
+    overflow: scroll;
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        gap: toRem(16px);
+    }
+
+    &__image {
+        max-width: toRem(544px);
+        max-height: toRem(544px);
+    }
+}
+
+.info {
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    &__job {
+        max-width: toRem(430px);
+    }
+
+    &__description {
+        max-width: toRem(480px);
+        color: var(--grey-700);
+    }
+
+    &__arrow-right {
+        position: absolute;
+        left: 0;
+        top: toRem(124px);
+    }
+}
+
+.latest-posts {
+
+    &__title-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__see-all {
+        display: flex;
+        gap: toRem(8px);
+        margin-bottom: toRem(40px);
+    }
+
+    &__veiw-link {
+        text-decoration: none;
+        color: var(--grey-500);
+    }
+
+    &__item-container {
+        display: flex;
+        gap: toRem(34px);
+    }
+
+    &__item-image {
+        max-width: toRem(350px);
+    }
+
+    &__item {
+        display: grid;
+        grid-template-columns: toRem(350px);
+        grid-template-rows: toRem(272px) toRem(44px) toRem(100px) toRem(81px);
+    }
+
+    &__image-description {
+        display: flex;
+        justify-content: space-between;
+        color: var(--grey-500);
+        margin-bottom: toRem(24px);
+    }
+}

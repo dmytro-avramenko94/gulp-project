@@ -1,0 +1,13 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font: var(--heading-h4);
+    color: var(--base-black);
+}
+
+.container {
+    max-width: toRem(1120px);
+    margin: 0 auto;
+}

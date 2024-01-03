@@ -1,0 +1,125 @@
+.hero {
+    margin-bottom: toRem(96px);
+}
+
+.blog-slide {
+    &__container {
+        display: flex;
+        gap: toRem(68px);
+        margin-bottom: toRem(114px);
+    }
+
+    &__image {
+        max-width: toRem(540px);
+        max-height: toRem(470px);
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        padding-top: toRem(50px);
+    }
+
+    &__job {
+        color: var(--grey-500);
+        margin-bottom: toRem(24px);
+    }
+
+    &__title {
+        max-width: toRem(448px);
+        color: inherit;
+        margin-bottom: toRem(16px);
+    }
+
+    &__date {
+        color: var(--grey-500);
+        margin-bottom: toRem(48px);
+    }
+
+    &__description {
+        max-width: toRem(448px);
+        color: var(--grey-700);
+        margin-bottom: toRem(94px);
+    }
+
+    &__pages {
+        display: flex;
+        align-items: center;
+        gap: toRem(24px);
+    }
+
+    &__page {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    &__page--active {
+        color: var(--grey-500);
+    }
+}
+
+.select {
+    &__container {
+        display: flex;
+        gap: toRem(39px);
+        margin-bottom: toRem(48px);
+    }
+
+    &__title {
+        color: inherit;
+        padding-bottom: 1.3125rem;
+    }
+
+    &__categorie {
+        color: var(--grey-700);
+        border: none;
+        padding-bottom: toRem(21px);
+        border-bottom: toRem(1px) solid var(--base-black);
+        letter-spacing: toRem(1.6px);
+    }
+}
+
+.blog-items {
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: toRem(38px);
+        margin-bottom: toRem(68px);
+    }
+}
+
+.blog-item {
+
+    display: grid;
+    grid-template-columns: toRem(540px);
+    grid-template-rows: toRem(274px) toRem(44px) toRem(100px) toRem(81px);
+
+    &__image {
+        max-width: toRem(540px);
+        max-height: toRem(250px);
+    }
+
+    &__image-description {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: toRem(24px);
+        color: var(--grey-500);
+    }
+
+    &__text {
+        color: var(--grey-700);
+    }
+}
+
+.blog-item:first-child,
+.blog-item:nth-child(2) {
+    margin-bottom: toRem(126px);
+}
+
+.button {
+    &__container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: toRem(128px);
+    }
+}
