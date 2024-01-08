@@ -1,0 +1,71 @@
+.works-post {
+
+    margin-bottom: toRem(128px);
+
+    .hero {
+        &__pre-title-text {
+            margin-bottom: toRem(48px);
+        }
+
+        &__title {
+            margin-bottom: toRem(64px);
+        }
+
+        &__img {
+            max-width: toRem(1120px);
+            margin-bottom: toRem(130px);
+        }
+
+        &__description-container {
+            display: grid;
+            grid-template-columns: toRem(544px) toRem(352px);
+            gap: toRem(224px);
+        }
+
+        &__description-overview-title {
+            margin-bottom: toRem(40px);
+        }
+
+        &__description-overview-text {
+            color: var(--grey-700);
+        }
+
+        &__specifications {
+            display: flex;
+            flex-direction: column;
+            gap: toRem(46px);
+
+            &-description {
+                color: var(--grey-700);
+            }
+        }
+    }
+
+    .other-projects {
+
+        &__container {
+            display: flex;
+            flex-direction: column;
+            gap: toRem(128px);
+        }
+
+        &__item {
+            display: flex;
+            flex-direction: column;
+
+            &-title {
+                margin-bottom: toRem(40px);
+            }
+
+            &-img {
+                max-width: toRem(1120px);
+                margin-bottom: toRem(50px);
+            }
+
+            &-description {
+                color: var(--grey-700);
+            }
+        }
+
+    }
+}

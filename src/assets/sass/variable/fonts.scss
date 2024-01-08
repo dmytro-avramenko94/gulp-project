@@ -19,6 +19,7 @@
     --heading-h7: 700 1rem/1.66rem var(--main-text-font);
     --heading-h8: 400 0.8125rem/normal var(--main-text-font);
     --heading-h9: 400 0.75rem/1.245rem var(--main-text-font);
+    --case-study-font: 400 1rem/1.5rem var(--main-text-font);
 }
 
 // Title
@@ -62,4 +63,10 @@
 .heading-h9 {
     font: var(--heading-h9);
     letter-spacing: 0.075rem;
+}
+
+.case-study-font {
+    font: var(--case-study-font);
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
 }

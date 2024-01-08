@@ -5,7 +5,7 @@
     margin-bottom: toRem(128px);
 }
 
-.hero {
+.hero-home {
     &__home-title {
         max-width: toRem(709px);
     }
@@ -15,6 +15,7 @@
     display: flex;
     gap: toRem(32px);
     overflow: scroll;
+    margin: 0 auto;
 
     &__item {
         display: flex;

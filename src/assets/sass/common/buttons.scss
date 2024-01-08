@@ -42,3 +42,14 @@
         color: var(--base-white);
     }
 }
+
+.projects__item-btn {
+    max-width: toRem(188px);
+    padding: toRem(8px) toRem(34px);
+    background-color: var(--grey-700);
+    display: flex;
+    align-items: center;
+    gap: toRem(8px);
+    text-decoration: none;
+    color: var(--base-white);
+}

@@ -1,0 +1,58 @@
+.works {
+    .hero {
+        &__works-container {
+            display: grid;
+            grid-template-columns: toRem(576px) toRem(544px);
+        }
+
+        &__title {
+            text-align: start;
+        }
+    }
+
+    .projects {
+        margin-bottom: 128px;
+
+        &__item-container {
+            display: grid;
+            grid-template-columns: toRem(576px) toRem(544px);
+            overflow: hidden;
+            margin-bottom: toRem(48px);
+
+            :last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        &__item-sub-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__item-title {
+            color: inherit;
+            padding-bottom: toRem(16px);
+
+            &-container {
+                &::after {
+                    content: "";
+                    display: block;
+                    height: toRem(1px);
+                    width: toRem(85px);
+                    background-color: var(--grey-300);
+                    margin-bottom: toRem(34px);
+                }
+            }
+        }
+
+        &__item-categorie {
+            color: inherit;
+            margin-bottom: toRem(16px);
+        }
+
+        &__item-data {
+            color: var(--grey-700);
+            margin-bottom: toRem(39px);
+        }
+    }
+}
